@@ -2,12 +2,13 @@
 
 ## Must-Haves
 
-> these are necessary for basic usability
+> the restaurant's daily menu with different items
 
 ## Should-Haves
 
-> these will complete the user experience, but are not necessary
+> An online reservation system that allows customers to book tables. About Us: A
+> section that tells the story of the restaurant
 
 ## Could-Haves
 
-> would be really cool ... if there's time
+> Reviews: reviews from satisfied customers to build credibility and trust.

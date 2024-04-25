@@ -1,33 +1,98 @@
 *,
-*::before,
-*::after {
-    box-sizing: border-box;
+::after,
+::before {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #5a5353;
-    color: whitesmoke;
+    background-color: #e7d8c9;
+    font-family: roboto, sans-serif;
 }
-.imgContainer img {
-    width: 100%;
-    height: 400px;
+
+.menu {
+    text-align: center;
+    padding: 50px 0;
 }
-.container {
+
+.title {
+    margin-bottom: 2rem;
+}
+
+.title h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.underline {
+    width: 5rem;
+    height: 0.25rem;
+    background: #ffffc7;
+    margin: 0 auto;
+}
+
+.btn-container {
+    margin-bottom: 2rem;
+}
+
+.filter-btn {
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-bottom: 15px;
+}
+
+.filter-btn:hover {
+    background: #cacbce;
+    color: white;
+}
+
+.menu-item {
+    margin-bottom: 2rem;
+}
+
+.photo {
+    width: auto;
+    height: 300px;
+    border-radius: 0.25rem;
+}
+
+.item-info {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    background: #eee4e1;
+    padding: 1rem;
 }
 
-.flight {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    margin-top: 30px;
-    padding: 0 20px;
+.item-info header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
 }
 
-.flight.title {
-    font-weight: bolder;
+.item-info h4 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.price {
+    color: #132a13;
+    margin-left: 5px;
+}
+
+.item-text {
+    font-size: 1.25rem;
+    color: #101111;
+    font-family: lato, sans-serif;
+}
+
+.hide {
+    display: none;
 }
